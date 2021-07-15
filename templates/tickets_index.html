@@ -25,7 +25,8 @@
       <td>
         <a href="{{url_for('tickets_show', ticket_id=ticket.id)}}">Details</a>
       </td>
-    </tr>  
+    </tr>
+  {% endfor %}   
   </tbody>
 </table>
 {% endblock %}
